@@ -1,13 +1,13 @@
-const showPasswdBtn = document.querySelector('#show-passwd')
-const showPasswdIcon = showPasswdBtn.querySelector('img')
-const passwdInput = document.querySelector('#password')
+const showPasswordButton = document.querySelector('#show-password')
+const showPasswordIcon = showPasswordButton.querySelector('img')
+const passwordInput = document.querySelector('#password')
 
-showPasswdBtn.addEventListener('click', () => {
-    passwdInput.type = passwdInput.type === 'password' 
+showPasswordButton.addEventListener('click', () => {
+    passwordInput.type = passwordInput.type === 'password' 
     ? 'text' 
     : 'password'
 
-    showPasswdIcon.src = showPasswdIcon.src.includes('open') 
+    showPasswordIcon.src = showPasswordIcon.src.includes('open') 
     ? 'eye_closed.svg' 
     : 'eye_open.svg'
 })

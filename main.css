@@ -14,7 +14,7 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	min-height: 100vh;
+	min-height: 500px;
 }
 
 form {
@@ -24,25 +24,25 @@ form {
 	margin: 0 auto;
 	background-color: #FFF;
 	color: #2b2d2f;
-	border-radius: 1rem;
-	padding: 1.5rem;
+	border-radius: 16px;
+	padding: 24px;
 }
 
 h3 {
-	font-size: 1.5rem;
-	margin-bottom: 1.5rem;
+	font-size: 24px;
+	margin-bottom: 24px;
 }
 
 label {
 	display: block;
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 }
 
 label span {
 	display: block;
 	color: #aaa;
-	font-size: 0.875rem;
-	margin-bottom: 0.5rem;
+	font-size: 14px;
+	margin-bottom: 8px;
 	transition: 0.3s ease-out;
 }
 
@@ -63,9 +63,9 @@ input[type="text"],
 input[type="password"] {
 	display: block;
 	width: 100%;
-	padding: 0.5rem 1rem;
+	padding: 8px 16px;
 	border: 1px solid #bbb;
-	border-radius: 0.5rem;
+	border-radius: 8px;
 	transition: border-color 0.3s ease-out;
 }
 
@@ -81,10 +81,10 @@ input[type="password"]:focus {
 	cursor: pointer;
 	background-color: #2b2d2f;
 	color: #FFF;
-	border-radius: 0.5rem;
-	padding: 1rem 1.5rem;
+	border-radius: 8px;
+	padding: 16px 24px;
 	text-transform: uppercase;
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: 700;
 	transition: background-color 0.3s ease-out;
 }
@@ -93,22 +93,22 @@ input[type="password"]:focus {
 	background-color: crimson;
 }
 
-.passwd-wrap {
+.password-wrap {
 	position: relative;
 }
 
-#show-passwd {
+#show-password {
 	position: absolute;
 	top: 50%;
-	right: 1rem;
+	right: 16px;
 	transform: translateY(-50%);
 	cursor: pointer;
-	width: 1.5rem;
+	width: 24px;
 	display: flex;
 	align-items: center;
 }
 
-#show-passwd img {
+#show-password img {
 	width: 100%;
 	height: auto;
 }
