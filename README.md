@@ -1,3 +1,5 @@
+# Hide and show password
+
 I created "show password" functionality on a password input element by switching the input's type.
 
 ![1](https://user-images.githubusercontent.com/78755964/192171193-eeba8189-010d-4986-a3d4-a99aadd429ac.PNG)
